@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2377a3245e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Onaneye Joseph</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Onaneye <span class="theme-color-1">Joseph</span></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="sub-section">
+            <div class="section__pic-container">
+                <img src="./img/image1.png" alt="joseph profile-pic" srcset="">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello i'm,</p>
+                <h1 class="title">Onaneye <span class="theme-color-">Joseph</span></h1>
+                <p class="section__text__p2">FrontEnd Developer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('../img/image1.jpg')">Download cv</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact info</button>
+                </div>
+                <div id="socials-container">
+                    <span class="icon-bg"><i class="fab fa-linkedin" onclick="location.href='https://www.linkedin.com/in/onaneye-ayodeji-057180247'"></i></span>
+                    <span class="icon-bg"><i class="fab fa-github"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="sub-section-about">
+            <p class="section__text__p1">Get to know more</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./img/image2.png" alt=" profile-pic" srcset="" class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-container">
+                        <div class="details-container">
+                            <span><i class="fas fa-certificate"></i></span> 
+                            <h3 class="theme-color-2">Experience</h3>
+                            <p>3+ years <br />Frontend Development</p>
+                        </div>
+                        <div class="details-container">
+                            <span><i class="fas fa-user-graduate"></i></span> 
+                            <h3 class="theme-color-2">Education</h3>
+                            <p>B.sc. bachelors Degree<br />Political science</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>I'm a passionate frontend web developer with a unique blend of skills
+                             honed through my academic journey in political science. My fascination with technology sparked during my time
+                              at university, where I discovered the power of web development in shaping online discourse and facilitating 
+                              communication. Leveraging my background in political science, I bring a nuanced understanding of societal dynamics
+                             and user behavior to my projects, ensuring user-centric designs that resonate with diverse audiences.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <span class="arrow-container"><i class="fas fa-angles-down arrow" onclick="location.href='./#experience'"></i></span>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <span><i class="fab fa-html5"></i></span>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <span><i class="fab fa-css3"></i></span>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <span><i class="fas fa-check-double"></i></span>
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Intermidiate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <span><i class="fab fa-react"></i></span>
+                            <div>
+                                <h3>React</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <span><i class="fab fa-bootstrap"></i></span>
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>                    
+                </div>
+            </div>
+         </div>
+         <span class="arrow-container"><i class="fas fa-angles-down arrow" onclick="location.href='./#project'"></i></span>
+    </section> 
+    <section id="projects">
+        <p class="section__text__p1">Browse my recents</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details">
+           <div class="about-container-project">
+                <div class="details-container-project color-container">
+                    <div class="article-container">
+                        <img src="./img/godgiftsmultimedia.netlify.app_.png" alt="project 1" srcset="" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Photogtaphy site</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/onaneye/photography.git'"> Github</button>
+                        <button class="btn btn-color-3 project-btn" onclick="location.href='https://godgiftsmultimedia.netlify.app'"> Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container-project color-container">
+                    <div class="article-container">
+                        <img src="./img/meek.netlify.app_.png" alt="project 2" srcset="" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Charity App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/onaneye/meek.github.io.git'"> Github</button>
+                        <button class="btn btn-color-3 project-btn" onclick="location.href='https://meek.netlify.app'"> Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container-project color-container">
+                    <div class="article-container">
+                        <img src="./img/temporarylink.netlify.app_ (1).png" alt="project 3" srcset="" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">E-commerce App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/onaneye/e-commerce.git'"> Github</button>
+                        <button class="btn btn-color-3 project-btn" onclick="location.href='https://temporarylink.netlify.app'"> Live Demo</button>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-form-container">
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="btn-container">
+                    <button type="submit" class="btn btn-color-2">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li onclick="location.href='https://www.facebook.com/profile.php?id=100088644889189'"><i class="fab fa-facebook"></i></li>
+                    <li onclick="location.href='https://twitter.com/Onaneye2'"><i class="fab fa-instagram-square"></i></li>
+                    <li onclick="location.href='https://twitter.com/Onaneye2'"><i class="fab fa-twitter-square"></i></li>
+                    <li onclick="location.href='https://www.linkedin.com/in/onaneye-ayodeji-057180247'"><i class="fab fa-linkedin"></i></li>
+                </ul>
+            </div>
+        </nav>
+        <p>copyright &#169; 2024  Onaneye Joseph. All Rights Reserved</p>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>

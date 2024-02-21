@@ -1,0 +1,135 @@
+@media (max-width:1400px){
+    #profile{
+        height: 100vh;
+        margin-bottom: 6rem;
+    }
+
+  .about-container{
+        flex-wrap: wrap;
+      }
+
+}
+
+@media (max-width:1200px){
+    #desktop-nav{
+        display: none;
+    }
+
+    #hamburger-nav{
+        display: flex;
+    }
+
+    .experience,.experience-details-container{
+        margin-top: 2rem;
+    }
+
+    .about-container-project{
+        display: block;
+        margin-bottom: 1rem;
+    }
+    #profile, .sub-section, .sub-section-about,.section-container{
+        display: block;
+    }
+
+    .sub-section-about{
+        margin: 0;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    section, .section-container{
+        height: fit-content;
+        
+    }
+
+    
+
+    .section__pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+        justify-content: center;
+    }
+
+    #about{
+        width: 100%;
+        padding: 3rem;
+    }
+
+    
+
+    #projects{
+        width: 100%;
+    }
+
+    .details-container-project{
+      width: 60%;
+      margin: 2rem auto;
+    }
+
+    footer p{
+        text-align: start;
+        padding: 0.5rem;
+        margin-left: 1rem;
+    }
+
+    .nav-links{
+       justify-content: start;
+    }
+
+}
+
+@media (max-width:700px){
+
+    #about{
+        width: 100%;
+        padding: 2rem;
+    }
+
+
+    .about-container{
+        justify-content: center;
+    }  
+
+
+    .section__pic-container{
+        width: 400px;
+        height: 400px;
+        justify-content: center;
+    }
+
+    .about-pic{
+        width: 400px;
+    }
+    .nav-links{
+       justify-content: start;
+    }
+}
+
+
+
+
+
+@media (max-width:400px){
+
+    #about{
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .about-container{
+      justify-content: center;
+    }
+
+
+    .section__pic-container{
+        width: 250px;
+        height: 250px;
+        justify-content: center;
+    }
+    .nav-links{
+       justify-content: start;
+    }
+}
