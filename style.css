@@ -193,6 +193,10 @@ a:hover{
     margin: auto 0;
  }
 
+
+
+
+
  
 
  .section__text{
@@ -292,8 +296,17 @@ a:hover{
 #about{
     position: relative;
     background-color: #111111;
+    width: 100%;
     
 }
+
+.section__pic-container-about{
+    display: flex;
+    height: 400px;
+    width: 700px;
+    justify-content: center;
+    margin: 0 auto;
+ }
 .sub-section-about{
     margin: 0 10rem;
     box-sizing: border-box;
@@ -363,6 +376,7 @@ a:hover{
 
 #experience{
     position: relative;
+    width: 100%;
 
 }
 
