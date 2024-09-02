@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joseph's portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="styles/output.css"> -->
     <link rel="stylesheet" href="mediaqueries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,11 +52,11 @@
                 <h1 class="title">Onaneye <span class="theme-color-">Joseph</span></h1>
                 <p class="section__text__p2">FrontEnd Developer</p>
                 <div class="btn-container">
-                    <button class="btn btn-color-2" onclick="window.open('../img/image1.jpg')">Download cv</button>
+                    <button class="btn btn-color-2" type="download" onclick="window.open('../img/image1.jpg')">Download cv</button>
                     <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact info</button>
                 </div>
                 <div id="socials-container">
-                    <span class="icon-bg"><i class="fab fa-linkedin" onclick="location.href='https://www.linkedin.com/in/onaneye-ayodeji-057180247'"></i></span>
+                    <span class="icon-bg"><i class="fab fa-linkedin" onclick="location.href='https:/linkedin.com/in/onaneye-ayodeji-057180247'"></i></span>
                     <span class="icon-bg"><i class="fab fa-github"></i></span>
                 </div>
             </div>
@@ -63,8 +64,11 @@
     </section>
     <section id="about">
         <div class="sub-section-about">
-            <p class="section__text__p1">Get to know more</p>
-            <h1 class="title">About Me</h1>
+            <div class="section__text w-12">
+                <p class="section__text__p1">Get to know more</p>
+                <h1 class="title">About Me</h1>
+            </div>
+            
             <div class="section-container">
                 <div class="section__pic-container-about">
                     <img src="./img/image2.png" alt=" profile-pic" srcset="" class="about-pic">
@@ -82,8 +86,8 @@
                             <p>B.sc. bachelors Degree<br />Political science</p>
                         </div>
                     </div>
-                    <div class="text-container">
-                        <p>I'm a passionate frontend web developer with a unique blend of skills
+                    <div class="text-container bg-blue-500">
+                        <p class="text-blue-500">I'm a passionate frontend web developer with a unique blend of skills
                              honed through my academic journey in political science. My fascination with technology sparked during my time
                               at university, where I discovered the power of web development in shaping online discourse and facilitating 
                               communication. Leveraging my background in political science, I bring a nuanced understanding of societal dynamics
